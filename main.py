@@ -16,6 +16,7 @@ def move_iss(lat, long):
     iss.goto(long, lat)
     iss.pendown()
 
+
 # Screen object (Turtle)
 screen = turtle.Screen()
 screen.setup(1000, 500)
