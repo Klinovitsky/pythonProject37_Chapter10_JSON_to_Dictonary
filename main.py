@@ -15,4 +15,5 @@ print('In',
 # From JSON into a dictionary
 json_string = '{"first": "Emmett", "last": "Brown", "prefix": "Dr"}'
 name = json.loads(json_string)
-print(name['prefix'], name['first'], name['last'])
+print("Print the dictionary:", name)
+print("Output:", name['prefix'], name['first'], name['last'])
