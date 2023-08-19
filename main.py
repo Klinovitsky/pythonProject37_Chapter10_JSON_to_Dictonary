@@ -1,3 +1,5 @@
+# Chapter 10. JSON
+
 current = {'temperature': 67.2,
            'precip_prob': '40%'}
 
